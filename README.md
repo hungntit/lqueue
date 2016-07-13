@@ -22,8 +22,8 @@ I used Linked List to improve performance, and apply it for 1000,000 elements.
 
 ## Example: Queues using linked list
 
-    var LQueue = require('lqueue')
-    var queue = new Dequeue()
+    var LQueue = require('linked-queue')
+    var queue = new LQueue()
     queue.length === 0 //=> true
     queue.enqueue(10)
     queue.length  //=> 1
