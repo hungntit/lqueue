@@ -1,6 +1,6 @@
 {
-  "name": "lqueue",
-  "version": "1.0.0",
+  "name": "linked-queue",
+  "version": "1.0.1",
   "description": "Queues using linked list, support enqueue,dequeue,enqueue all, dequeue all, clear, forEach, first, last",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "fast",
     "lqueue"
   ],
-  "author": "Hung Nguyen",
+  "author": "Hung Nguyen <hungnt.it@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hungntit/lqueue/issues"
