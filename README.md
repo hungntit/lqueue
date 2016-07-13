@@ -14,10 +14,10 @@ When I was using javascript Array and calling array.shift() method to get first 
 I used Linked List to improve performance, and apply it for 1000,000 elements.
 
     var start = new Date().getTime()
-    for(var i = 0; i< 100000; i++){
+    for(var i = 0; i< 1000000; i++){
      queue.dequeue();
     }
-    var duration = new Date().getTime() - start;// duration  = 8
+    var duration = new Date().getTime() - start;// duration  = 8 for 1000000 elements
 
 
 ## Example: Queues using linked list
@@ -85,4 +85,4 @@ Remove all entries.
 
 ## About the Code
 
-I was convinced by [a blog posting](http://www.dreamincode.net/forums/topic/10157-data-structures-in-c-tutorial/) 
+I was convinced by [a blog posting](http://www.dreamincode.net/forums/topic/10157-data-structures-in-c-tutorial/)
