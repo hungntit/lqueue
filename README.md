@@ -20,7 +20,7 @@ I used Linked List to improve performance, and apply it for 1000,000 elements.
     var duration = new Date().getTime() - start;// duration  = 8 for 1000000 elements
 
 
-## Example: Queues using linked list
+## Example: Queues using linked list. Visit here to test: https://tonicdev.com/5788a641565456130014d2c1/5788a641565456130014d2c2
 
     var LQueue = require('linked-queue')
     var queue = new LQueue()
